@@ -10,14 +10,18 @@ This is an **Event Management Platform** built using **Angular**, allowing users
 - **Responsive Design:** Optimized for both desktop and mobile devices.
 - **Event Management:** Manage and organize events efficiently.
 
+## Technologies Used
+
+- Angular, HTML, CSS
+
 ## Getting Started
 
 Follow these instructions to set up and run the application on your local machine.
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) (version x.x.x)
-- [Angular CLI](https://angular.io/cli) (version x.x.x)
+- [Node.js](https://nodejs.org/) 
+- [Angular CLI](https://angular.io/cli)
 
 ### Installation
 
