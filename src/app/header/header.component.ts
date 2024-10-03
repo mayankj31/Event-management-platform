@@ -10,6 +10,6 @@ import { RouterLink } from '@angular/router';
   styleUrl: 'header.component.css'
 })
 export class HeaderComponent {
-  logo = '/logo.png'; // Update path to your actual logo
+  logo = '/logo.png'; 
   location = 'Hayward, Oakland, +2 more...';
 }

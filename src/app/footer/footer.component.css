@@ -13,7 +13,6 @@ footer {
     flex-wrap: wrap;
   }
   .footer-section p{
-    /* margin-bottom: 1rem; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
   .footer-section h3 {
