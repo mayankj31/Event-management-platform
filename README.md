@@ -45,3 +45,9 @@ Follow these instructions to set up and run the application on your local machin
 5. **Open your browser and go to:**
    ```bash
    http://localhost:4200
+
+
+![blintickets1](https://github.com/user-attachments/assets/fc7d38eb-60ed-4219-9148-f4de50ee7852)
+
+![blintickets2](https://github.com/user-attachments/assets/bbabb15c-fb07-45e5-8a67-ab9377ff9a56)
+
