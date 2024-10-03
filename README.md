@@ -1,27 +1,46 @@
-# EventManagementPlatform
+# Event Management Platform
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.6.
+This is an **Event Management Platform** built using **Angular**, allowing users to browse, search, and manage events seamlessly.
 
-## Development server
+## Core Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **User-friendly Interface:** Intuitive navigation and design for a smooth user experience.
+- **Event Browsing:** View a list of upcoming events with details.
+- **Search Functionality:** Easily search for events by keywords.
+- **Responsive Design:** Optimized for both desktop and mobile devices.
+- **Event Management:** Manage and organize events efficiently.
 
-## Code scaffolding
+## Technologies Used
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Angular, HTML, CSS
 
-## Build
+## Getting Started
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Follow these instructions to set up and run the application on your local machine.
 
-## Running unit tests
+### Prerequisites
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- [Node.js](https://nodejs.org/) 
+- [Angular CLI](https://angular.io/cli)
 
-## Running end-to-end tests
+### Installation
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. **Clone the repository to your local machine:**
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
 
-## Further help
+2. **Navigate to the project directory**
+   ```bash
+   cd event-management-platform
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+3. **Install the required dependencies:**
+   ```bash
+   npm install
+
+4. **Start the development server:**
+   ```bash
+   ng serve
+
+5. **Open your browser and go to:**
+   ```bash
+   http://localhost:4200
