@@ -1,4 +1,4 @@
-.hero {
+/* .hero {
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -16,4 +16,71 @@
 
   .festival:hover{
     transform: translateY(-10px);
+  } */
+  .hero {
+    background-size: cover;
+    background-position: center;
+    height: 500px; /* Maintain your desired hero height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    position: relative;
+    overflow: hidden; /* Hide overflow for carousel */
   }
+  
+  .carousel {
+    width: 100%; /* Increased width to 80% of the hero section */
+    height: 10%; /* Keep height to 60% of the hero section */
+    position: relative;
+    overflow: hidden; /* Hide overflow for carousel items */
+    cursor: pointer;
+  }
+  
+  .carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+    height: 100%;
+  }
+  
+  .carousel-item {
+    min-width: 100%; /* Each item takes full width */
+    height: 100%;
+    display: flex; /* Allow centering */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+  }
+  
+  .carousel-item img {
+    width:80%; /* Full width of the carousel */
+    height: 450px; /* Maintain aspect ratio */
+    max-height: 100%; /* Prevent image from exceeding the height of the carousel */
+  }
+  
+  .carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  .carousel-control.prev {
+    left: 10px;
+  }
+  
+  .carousel-control.next {
+    right: 10px;
+  }
+  
+  .festival {
+    border-radius: 5px;
+  }
+  
+  .festival:hover {
+    opacity: .9;
+  }  
