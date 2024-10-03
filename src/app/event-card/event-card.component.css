@@ -1,0 +1,29 @@
+.event-card {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+.event-card:hover {
+  transform: translateY(-15px);
+}
+.event-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.event-info {
+  padding: 1rem;
+}
+.book-now {
+  background-color: #ff5a5f;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.book-now:hover {
+  background-color: #ff3b3f;
+}

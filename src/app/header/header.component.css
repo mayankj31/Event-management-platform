@@ -1,0 +1,54 @@
+  header {
+    background-color: white;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .Logo {
+    height: 40px;
+    background-color: rgb(212, 36, 65);
+    border: 2px solid rgb(212, 36, 65);
+    padding: 10px;
+  }
+  
+  .nav-options {
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 50%;
+  }
+  
+  .option {
+    padding: 0.5rem 1rem 0.1rem;
+    border-right: 1px solid #ddd;
+  }
+  
+  .option:last-child {
+    border-right: none;
+  }
+  
+  .option span {
+    font-size: 0.8rem;
+    color: #666;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+  }
+  
+  .option p {
+    margin-top: 5px;
+  }
+  
+  .menu{
+    opacity: .3;
+  }
+
+  .user-icon {
+    font-size: 1.5rem;
+    color: #333;
+  }

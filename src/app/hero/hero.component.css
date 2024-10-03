@@ -1,0 +1,19 @@
+.hero {
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+  }
+
+  .festival{
+    width: 45%;
+    border-radius: 5px;
+  }
+
+  .festival:hover{
+    transform: translateY(-10px);
+  }

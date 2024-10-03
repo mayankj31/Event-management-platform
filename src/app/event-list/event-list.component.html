@@ -1,0 +1,4 @@
+<app-search-bar (search)="filterEvents($event)"></app-search-bar>
+<div class="event-grid">
+  <app-event-card *ngFor="let event of filteredEvents" [event]="event"></app-event-card>
+</div>    
