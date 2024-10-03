@@ -9,6 +9,7 @@ This is an **Event Management Platform** built using **Angular**, allowing users
 - **Search Functionality:** Easily search for events by keywords.
 - **Responsive Design:** Optimized for both desktop and mobile devices.
 - **Event Management:** Manage and organize events efficiently.
+- **Carousel Feature:** Implemented for displaying featured events.
 
 ## Technologies Used
 
